@@ -20,7 +20,7 @@ CREATE TABLE app_count
     SETTINGS index_granularity = 8192;
 ```
 
-ch2gorm可以在指定的目录下生成 model/app_count.go，内容如下：
+clickhouse2gorm可以在指定的目录下生成 model/app_count.go，内容如下：
 
 ```
 package model
